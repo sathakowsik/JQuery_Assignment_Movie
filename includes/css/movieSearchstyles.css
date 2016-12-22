@@ -14,6 +14,27 @@ Notes:	 Stack Route
    Layout
    -------------------------------------- */
 
+  #centerdiv{
+    width: 560px;
+    height: 200px;
+    text-align: left;
+    padding: 5px;
+    /*background-color: pink*/
+  }
+
+  #centerdiv_left{
+    width: 275px;
+    height: 200px;
+    float: left;
+    /*background-color: red;*/
+  }
+
+  #centerdiv_right{
+    width: 275px;
+    height: 200px;
+    float: right;
+    /*background-color: blue;*/
+  }
 
 /* --------------------------------------
    Header
@@ -34,7 +55,7 @@ body {
      background-size: 1380px 1000px;
  }
 
-.sec_class{
+.sec_class1{
   text-align: center;
 }
 
