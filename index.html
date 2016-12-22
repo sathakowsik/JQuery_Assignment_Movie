@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+  <!-- Head part which describe the title of web page and includes the external javascript file and css file -->
+  <head>
+    <!-- Title to display the content in the webpage bar -->
+    <title>
+      Movie Search Engine
+    </title>
+    <!-- Head Ends -->
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="includes/css/movieSearchstyles.css">
+
+    <!-- JS -->
+    <script type="text/javascript" src="includes/js/movieSearchJs.js"></script>
+
+  </head>
+  <!-- Head Ends -->
+
+  <!-- Body for displaying the heading and perform the search operation -->
+  <body>
+    <!-- Header for displaying the heading -->
+    <header class="my_hd_bar">
+      <h1>Movie Search</h1>
+    </header>
+    <!-- Header Ends -->
+
+    <!-- Section for displaying the search box and and perform search operation using external js -->
+    <section class="sec_class">
+      <!-- Form for holding textbox and search button which transfer the value to js -->
+      <form name="movie_search_form" action="index.html" method="post">
+        <input type="text" name="movie_search_box" placeholder="Type Movie Name...">
+        <button type="button" name="search_button" onclick="callingFun()">Search</button>
+      </form>
+      <!-- Form Ends -->
+    </section>
+    <!-- Header Ends -->
+  </body>
+  <!-- Body Ends -->
+</html>
+<!-- Html Ends -->

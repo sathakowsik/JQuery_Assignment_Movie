@@ -1,0 +1,63 @@
+/*
+
+My Custom CSS
+=============
+Title: JQuery Assignment
+Author:  Kowsikan Siva
+Updated: December 2016
+Notes:	 Stack Route
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+/* --------------------------------------
+   Header
+   -------------------------------------- */
+
+.my_hd_bar {
+    text-align: center;
+    padding: 10px;
+}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+body {
+     background-image: url("../images/movie_body.jpg");
+     background-repeat: no-repeat;
+     background-size: 1380px 1000px;
+ }
+
+.sec_class{
+  text-align: center;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+
+/* Portrait & landscape phone */
+
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+
+@media (max-width: 768px) {
+
+}
+
+
+/* Large desktop */
+
+@media (min-width: 1200px) {
+
+}
